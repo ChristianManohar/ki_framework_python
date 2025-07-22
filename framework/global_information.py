@@ -6,9 +6,9 @@ import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 from queue import LifoQueue
-from data_types.information_structure import InformationStructure, Node
-from local_information import LocalInformation
-from local_knowledge import LocalKnowledge
+from framework.data_types.information_structure import InformationStructure, Node
+from framework.local_information import LocalInformation
+from framework.local_knowledge import LocalKnowledge
 
 class GlobalInformation:
     def __init__(self, init_nodes:list[Node], agent_list:list[LocalKnowledge]):

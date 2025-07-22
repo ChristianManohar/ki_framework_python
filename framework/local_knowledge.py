@@ -5,8 +5,8 @@ Defines the Local Knowledge layer in the KI framework
 import networkx as nx
 import matplotlib.pyplot as plt
 import queue
-from data_types.information_structure import InformationStructure, Node
-from local_information import LocalInformation
+from framework.data_types.information_structure import InformationStructure, Node
+from framework.local_information import LocalInformation
 
 class LocalKnowledge:
     def __init__(self, structure=None, root=None):

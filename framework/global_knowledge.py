@@ -2,10 +2,10 @@
 Defines the GlobalKnowledge layer used in the KI framework, which extracts information from the 
 GlobalInformation layer, and draws connections only between nodes present in the GlobalKnowledge layer.
 """
-from data_types.information_structure import InformationStructure, Node
-from local_information import LocalInformation
-from local_knowledge import LocalKnowledge
-from global_information import GlobalInformation
+from framework.data_types.information_structure import InformationStructure, Node
+from framework.local_information import LocalInformation
+from framework.local_knowledge import LocalKnowledge
+from framework.global_information import GlobalInformation
 import networkx as nx
 import matplotlib.pyplot as plt
 

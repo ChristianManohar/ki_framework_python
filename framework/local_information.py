@@ -5,7 +5,7 @@ Defines the LocalInformation class used in the KI framework, describes a local i
 import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
-from data_types.information_structure import InformationStructure, Node
+from framework.data_types.information_structure import InformationStructure, Node
 
 class LocalInformation:
 
